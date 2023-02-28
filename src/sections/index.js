@@ -1,0 +1,11 @@
+export { default as Hero } from "./Hero";
+export { default as Discover } from "./Discover";
+export { default as Footer } from "./Footer";
+export { default as Testimonial } from "./Testimonial";
+export { default as Logos } from "./Logos";
+export { default as Navbar } from "./Navbar";
+export { default as Why_us } from "./Why_us";
+export { default as Features } from "./Features";
+export { default as Feature } from "./Feature";
+export { default as CTA_Pricing } from "./CTA_Pricing";
+export { default as CTA } from "./CTA";

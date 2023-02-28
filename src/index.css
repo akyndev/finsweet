@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1d2130;
+  --blue: #6b7cff;
+  --light-violet: #e0e4fc;
+  --linear-from: #373fff;
+  --linear-to: #3acaf8;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.cta {
+  background: radial-gradient(
+    483.9% 2719.65% at -49.5% -250%,
+    #d798e1 17.55%,
+    #9bffa5 27.56%,
+    #aed3ff 49.89%,
+    #c9d4ef 56.53%,
+    #cacffa 65.69%
+  );
+}
+
+/* Swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Swiper slide */
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* swiper images */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+/*  Swiper btns */
+ 
+.swiper-button-next,
+.swiper-button-prev {
+    position: relative;
+    padding: 30px;
+    font-size: 16px !important;
+    margin: auto;
+    display: inline;
+    /* background: #000; */
+    color: var(--blue) !important;
+    fill: black !important;
+    stroke: black !important;
+}
