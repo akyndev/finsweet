@@ -28,7 +28,7 @@ const BackToTop = () => {
     }
 
   return (
-    <div  id='back-to-top' onClick={handleScroll} className='fixed scale-x-0 scale-y-0 bottom-4 right-4 2xl:right-[500px] bg-slate-300 rounded-full shadow-xl 
+    <div  id='back-to-top' onClick={handleScroll} className='fixed select-none scale-x-0 scale-y-0 bottom-4 right-4 2xl:right-[500px] bg-slate-300 rounded-full shadow-xl 
     hover:scale-x-110 hover:scale-y-110 transition-all duration-200 w-10 h-10 cursor-pointer p-2 z-[300] text-slate-800
     '>
         <span className='material-symbols-rounded select-none'>arrow_upward</span>
