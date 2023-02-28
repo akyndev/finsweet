@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import Input from "../components/Input";
+import { Link } from "react-router-dom";
 
 const company = [
   "company",
@@ -31,7 +32,7 @@ const list = (arr) => {
       className="capitalize first:text-xl my-1.5 hover:text-[var(--blue)] duration-200 transition-all first:hover:text-white first:my-0 first:font-semibold"
       key={l}
     >
-      <a href={l}>{l}</a>
+      <Link to={l}>{l}</Link>
     </li>
   ));
 };
