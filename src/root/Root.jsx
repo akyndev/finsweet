@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, ScrollRestoration } from "react-router-dom";
 import BackToTop from "../components/BackToTop";
 import Menu from "../components/Menu";
-import { CTA_Pricing, Footer, Navbar } from "../sections";
+import { CTA_Pricing, Footer, Navbar } from "../home_sections";
 
 const Root = () => {
   return (

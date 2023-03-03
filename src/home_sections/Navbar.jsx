@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { ThemeContext } from "../App";
-import Button from "../components/Button";
+import {Button} from "../components/Button";
 import Toggle from "../components/Toggle";
 
 const list = [

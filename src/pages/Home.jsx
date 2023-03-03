@@ -1,5 +1,5 @@
 import React from 'react'
-import { Features, Hero, Feature, Testimonial, Why_us, CTA, Discover, Logos } from '../sections'
+import { Features, Hero, Feature, Testimonial, Why_us, CTA, Discover, Logos } from '../home_sections'
 
 const Home = () => {
   return (
