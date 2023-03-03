@@ -28,11 +28,11 @@ const Time = () => {
                 justo duo dolores et ea rebum. Stet clita kasd gubergren.
               </p>
             </div>
-            <div className="bg-gradient-to-tr from-[#d798e1]  to-[#cacffa] via-[#aed3ff] h-72 w-72 top-[20%]  left-[50%]  translate-x-[-50%] blur-[150px] absolute -z-[300]" />
+            <div className="bg-gradient-to-tr from-[#d798e1]  to-[#cacffa] via-[#aed3ff] lg:h-72 lg:w-72 w-32 h-32 lg:blur-[150px] blur-[100px] top-[20%]  left-[50%]  translate-x-[-50%] absolute -z-[300]" />
           </div>
           <div className="relative w-full lg:w-6/12">
             <img src="/images/time_tracker.png" alt="" className="md:w-6/12 xl:w-8/12 mx-auto"/>
-            <div className="bg-gradient-to-tr from-[#d798e1]  to-[#cacffa] via-[#aed3ff] h-72 w-72 top-[20%]  left-[50%]  translate-x-[-50%] blur-[150px] absolute -z-[300]" />
+            <div className="bg-gradient-to-tr from-[#d798e1]  to-[#cacffa] via-[#aed3ff] lg:h-72 lg:w-72 w-32 h-32 lg:blur-[150px] blur-[100px] top-[20%]  left-[50%]  translate-x-[-50%] absolute -z-[300]" />
           </div>
         </div>
       </div>
